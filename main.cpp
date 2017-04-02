@@ -2,7 +2,6 @@
 
 void Init() {
     glClearColor(0.0, 0.0, 0.0, 0.0); //Fondo negro
-    //TODO
 
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
@@ -11,7 +10,6 @@ void Init() {
 
 void Display() {
     glClear(GL_COLOR_BUFFER_BIT); // Borra lo existente en el frame buffer
-    //TODO
 
     glBegin(GL_TRIANGLES);
     {
